@@ -1,0 +1,15 @@
+node_modules/
+
+.env*
+
+\[x\]*
+
+build/
+
+dist/
+
+package-lock.json
+
+__test__/
+
+test/

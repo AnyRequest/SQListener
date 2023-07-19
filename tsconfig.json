@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build",
+    "target": "ESNext",
+    "types": ["jest", "node"],
+    "lib": ["DOM", "ES7", "ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": true,
+    // "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    /* fastify typeorm settings */
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    // "typeRoots": ["./node_modules/@types"],
+    "emitDecoratorMetadata": true,
+    "composite": true
+  },
+  "ts-node": {
+    "esm": true,
+    "files": true,
+    "compilerOptions": {
+      "module": "nodenext"
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/node_modules/*", "dist", "build", "front/*"]
+  // "extends": "@tsconfig/node18/tsconfig.json"
+}

@@ -1,6 +1,6 @@
 {
   "name": "sqlistener",
-  "version": "0.0.1-beta",
+  "version": "0.0.2",
   "description": "A plugin that uses SQL to detect when a change, modify, delete, etc. query occurs.",
   "main": "dist/src/index.js",
   "directories": {
